@@ -86,9 +86,9 @@ function onMouseUp() {
 }
 
 
-window.addEventListener('mousedown', onMouseDown);
-window.addEventListener('mousemove', onMouseMove);
-window.addEventListener('mouseup', onMouseUp);
+window.addEventListener('pointerdown', onMouseDown);
+window.addEventListener('pointermove', onMouseMove);
+window.addEventListener('pointerup', onMouseUp);
 
 // @ts-ignore
 ball.style.left = state.objectPos.x + 'px';
